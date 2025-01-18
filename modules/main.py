@@ -9,7 +9,7 @@ import subprocess
 import logging
 from utils import progress_bar
 import core as helper
-from config import BOT_TOKEN, API_ID, API_HASH, MONGO_URI, BOT_NAME
+from config import bot_token, api_id, api_hash, MONGO_URI, BOT_NAME
 import aiohttp
 from aiohttp import ClientSession
 from pyromod import listen
