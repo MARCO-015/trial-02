@@ -34,9 +34,9 @@ import yt_dlp as youtube_dl
 # Initialize bot
 bot = Client(
     "bot",
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7838532960:AAF_zpM1NnSvBxTMKqJSd-KRRi2IG69H1Ao"),
-    API_ID = int(os.environ.get("API_ID","21008992")),
-    API_HASH = os.environ.get("API_HASH", "da87f6dea5ed8cfe1a53617e33a35742"))
+    bot_token=BOT_TOKEN,
+    api_id=API_ID,
+    api_hash=API_HASH)
 
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
