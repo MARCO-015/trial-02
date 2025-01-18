@@ -9,7 +9,7 @@ import subprocess
 import logging
 from utils import progress_bar
 import core as helper
-from config import bot_token, api_id, api_hash, MONGO_URI, BOT_NAME
+from config import BOT_TOKEN, API_ID, API_HASH, MONGO_URI, BOT_NAME
 import aiohttp
 from aiohttp import ClientSession
 from pyromod import listen
@@ -34,9 +34,9 @@ import yt_dlp as youtube_dl
 # Initialize bot
 bot = Client(
     "bot",
-    api_id=api_id,
-    api_hash=api_hash,
-    bot_token=bot_token)
+    BOT_TOKEN=BOT_TOKEN,
+    API_ID=API_ID,
+    API_HASH=API_HASH)
 
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
