@@ -1,6 +1,6 @@
 # config.py
 BOT_NAME = "Tony"
-BOT_TOKEN = "7616665641:AAGgymSVQ06sA9boqiKMz9I15uEr8O7J_II"
-API_ID = 21008992
-API_HASH = "da87f6dea5ed8cfe1a53617e33a35742"
+BOT_TOKEN = "7689276954:AAGn8YebZXz2S2X7gF9JdjgUi-IpkfVhEas"
+API_ID = 25579552
+API_HASH = "ac24e438ff9a0f600cf3283e6d60b1aa"
 MONGO_URI = "mongodb+srv://Test2:Monstersir123@cluster0.ltadb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
